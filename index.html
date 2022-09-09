@@ -1,65 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUMAYA</title>
-    <!--Estilos de Bootstrap y propios-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUMAYA</title>
+  <!--Estilos de Bootstrap y propios-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body class="img-fluid">
-    <header>
-        <!--Nav mobile-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <div class="d-flex align-items-center">
-                    <a class="navbar-brand" href="#">
-                        <img src="IMAGENES/Logo/HconDulce100x100.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
-                        <a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Locales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contacto</a>
-                    </li>
+  <header>
+    <!--Nav mobile-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo/HconDulce100x100.png" alt="" width="48" height="48"
+              class="d-inline-block align-text-top">
+            <a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contacto</a>
+            </li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    </header>
-    
-    <main>
-        <!--Presentación-->
-        <section>
+  <main>
+    <!-- Presentación -->
+    <section class="fondoDeHeader img-fluid m-0 p-0 " id="hero">
+      <div class="card mt-0 mx-4 fondoTransparente cardStyle" style="width: 16rem;">
+        <div class="card-body align-items-center fondoTransparente mt-5 my-auto">
+          <h5 class="card-title colorTituloLogo">DULCES DEL ALMA</h5>
+          <p class="card-text mt-3">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones
+            familiarfes y sabores
+            caseros, acompañándote en los momentos más importantes de la vida.</p>
+          <button href="#" type="button" class="btn btn-dark d-grid gap-2 col-8 mx-auto mt-4">CONOCENOS</button>
+        </div>
+      </div>
+    </section>
 
-        </section>
-        
-    </main>
+    <h2 class="text-center p-2" style=" color:white;">PRODUCTOS</h2>
+    <section id="productos">
+      <div class="card producto cardStyle">
+        <img src="img/Productos/Producto1.png" class="card-img-top"
+          alt="Un cuenco con dulce de leche y alfajores de maicena a su derecha">
+        <div class="card-body">
+          <h5 class="card-title text-center">DULCE DE LECHE TRADICIONAL</h5>
+          <p class="card-text">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>
+          <h6 class="texto-presentacion">Presentación en frasco de vidrio de 580gr.</h6>
+          <div class="text-center p-3">
+            <a href="#" class="boton-producto">+Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="card producto cardStyle">
+        <img src="img/Productos/Producto2.png" class="card-img-top"
+          alt="Imagen cercana de dulce de leche de color más claro">
+        <div class="card-body">
+          <h5 class="card-title text-center">DULCE DE LECHE SIN AZÚCAR</h5>
+          <p class="card-text">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente
+            con stevia.</p>
+          <h6 class="texto-presentacion">Presentación en frascos de vidrio de 280gr y 580gr.</h6>
+          <div class="text-center p-3">
+            <a href="#" class="boton-producto">+Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="card producto cardStyle">
+        <img src="img/Productos/Producto3.png" class="card-img-top"
+          alt="un cuenco con dulce más oscuro, una tapa de alfajor siendo untada con dulce de leche">
+        <div class="card-body">
+          <h5 class="card-title text-center">DULCE CHOCONUTT</h5>
+          <p class="card-text">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y
+            pasta de avellanas. Una delicia única. </p>
+          <h6 class="texto-presentacion">Presentación en frasco de vidrio de 280gr.</h6>
+          <div class="text-center p-3">
+            <a href="#" class="boton-producto">+Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="card producto producto-distinto cardStyle">
+        <img src="img/Productos/Producto6b.png" class="card-img-top"
+          alt="Una pila de alfajores de maicena con dulce de leche y coco">
+        <div class="card-body">
+          <h5 class="card-title text-center">ALFAJORES DE MAICENA</h5>
+          <p class="card-text">Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura. Pudiendo elegir
+            entre dulce de leche tradicional, light o choconutt.</p>
+          <h6 class="texto-distinto">Presentación en caja de 6 y 12 alfajores.</h6>
+          <div class="text-center p-3">
+            <a href="#" class="boton-distinto">+Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        
-    </footer>
+    <section id="logos">
+      <h2>La mejor calidad para vos</h2>
+      <div>
+      </div>
+      <div>
 
-<!--Scripts de Bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      </div>
+      <div>
+
+      </div>
+    </section>
+
+    <section id="contacto">
+
+    </section>
+
+    <section id="recetas">
+
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <!--Scripts de Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5e2256a3f1.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
-
-

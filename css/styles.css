@@ -1,0 +1,153 @@
+:root {
+    --background-dark: #333030;
+    --primary-color: #bca177;
+    --secondary-color: #62411d;
+}
+body{
+    background-color: var(--background-dark);
+}
+
+h2 {
+    color: #FFF;
+}
+
+.fondoDeHeader {
+    background-image: url("../img/Central/imagenCentral.png");
+    background-size: cover;
+}
+
+.fondoTransparente {
+    background-color: transparent;
+    color: white;
+    
+}
+
+.cardStyle{
+    border-style: none;
+    border-style: none;
+    padding: 0;
+    margin: none;
+    background-color: transparent;
+}
+
+#productos {
+    width: 100vw;
+    background-color: black;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+}
+
+.producto h5 {
+    color: var(--primary-color);
+}
+
+.producto, .producto-distinto p {
+    color: white;
+}
+
+.boton-producto {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.boton-distinto {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.producto-distinto {
+    background-color: var(--primary-color);
+}
+
+.producto-distinto h5 {
+    color: var(--secondary-color);
+}
+
+.texto-distinto {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.texto-presentacion {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 480px) and (max-width: 940px) {
+    #hero {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+    .producto {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .producto div {
+        width: 50vw;
+    }
+
+    .producto img {
+        object-fit: cover;
+        width: 50vw;
+    }
+
+    .producto:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1200px) {
+    #hero {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    .producto {
+        display: flex;
+        flex-direction: row;
+    }
+    .producto:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+    #hero {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+    .producto {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .producto div {
+        width: 50vw;;
+    }
+
+
+    .producto img {
+        width: 50vw;
+    }
+    .producto:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+
+}
