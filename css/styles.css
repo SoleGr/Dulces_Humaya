@@ -56,10 +56,11 @@ h2 {
 }
 
 .boton-distinto {
-    border: 2px solid var(--secondary-color);
+    border: 3px solid var(--secondary-color);
     color: var(--secondary-color);
     padding: 5px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .producto-distinto {
@@ -96,10 +97,11 @@ h2 {
 }
 
 #logos h6{
-    color: #bca177;
+    color: var(--primary-color);
 }
 
 #contacto {
+    padding-bottom: 15px;
     background-color: #FFF;
 }
 
@@ -107,9 +109,21 @@ h2 {
     color: var(--secondary-color);
 }
 
+#recetas h5 {
+    color: var(--secondary-color);
+    font-weight: lighter;
+}
+
+.receta {
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 20px auto 20px auto;
+}
+
 input[type="text"]{
     background-color: var(--primary-color);
     width: 80%;
+    border: none;
 }
 
 
