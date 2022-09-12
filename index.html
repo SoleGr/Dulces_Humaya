@@ -128,7 +128,7 @@
         <img class="logo my-3" src="/img/SVG/tacc.svg" alt="logo sin TACC">
         <h6 class="text-center fw-light">SIN <br>TACC</h6>
       </div>
-      <div class="mb-3">
+      <div class="my-3">
         <img class="logo my-3" src="/img/SVG/chem.svg" alt="logo sin conservantes">
         <h6 class="text-center fw-light">SIN <br>CONSERVANTES</h6>
       </div>
@@ -136,8 +136,8 @@
 
     <h2 class="text-center my-3">Contactanos</h2>
     <section id="contacto">
-      <img src="img/Productos/contacto.png" alt="">
-      <form action="">
+      <img src="img/Productos/contacto.png" class="card-img-top" alt="">
+      <form action="" id="form-contacto">
         <p>Dejanos tu consulta y nuestro personal se pondrá en contacto a la brevedad:</p>
         <div class="text-center my-3">
           <label for="">NOMBRE:</label> <br>
@@ -155,8 +155,8 @@
     </section>
 
     <h2 class="text-center my-3">Recetas</h2>
-    <section id="recetas">
-      <div class="card receta" style="width: 18rem;">
+    <section id="recetas" class="row">
+      <div class="card receta col-sm-12 col-md-4" style="width: 18rem;">
         <img src="img/Recetas/receta1.png" class="card-img-top"
           alt="Conito de chocolate, abierto en la punta donde se ve el relleno de delce de leche">
         <div class="card-body">
@@ -168,23 +168,25 @@
           </div>
         </div>
       </div>
-      <div class="card receta" style="width: 18rem;">
+      <div class="card receta col-sm-12 col-md-4" style="width: 18rem;">
         <img src="img/Recetas/receta2.png" class="card-img-top"
           alt="Conito de chocolate, abierto en la punta donde se ve el relleno de delce de leche">
         <div class="card-body">
           <h5 class="card-title text-center">PEPAS</h5>
-          <p class="card-text">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
+          <p class="card-text">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la
+            hora del té.</p>
           <div class="text-center">
             <a href="#" class="boton-distinto">PREPARACIÓN</a>
           </div>
         </div>
       </div>
-      <div class="card receta" style="width: 18rem;">
+      <div class="card receta col-sm-12 col-md-4" style="width: 18rem;">
         <img src="img/Recetas/receta3.png" class="card-img-top"
           alt="Conito de chocolate, abierto en la punta donde se ve el relleno de delce de leche">
         <div class="card-body">
           <h5 class="card-title text-center">TORTA NUTT</h5>
-          <p class="card-text">La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</p>
+          <p class="card-text">La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de
+            leche y cubierta de choconutt.</p>
           <div class="text-center">
             <a href="#" class="boton-distinto">PREPARACIÓN</a>
           </div>
@@ -196,6 +198,54 @@
 
   <h2 class="text-center my-3">Encontranos en:</h2>
   <footer>
+    <div class="row">
+      <div class="col-12 col-lg-2 text-center py-3" id="logo-footer">
+        <img src="img/Logo/LogoHumaya100x100.png" alt="logo Humaya dulces">
+      </div>
+      <div class="col-6 col-lg-3 text-center my-3" id="menu-footer">
+        <h5 class="card-title">MENÚ</h5>
+        <ul class="li">Home</ul>
+        <ul class="li">Productos</ul>
+        <ul class="li">Locales</ul>
+        <ul class="li">Contacto</ul>
+      </div>
+      <div class="col-6 col-lg-3 text-center my-3" id="nav-footer">
+        <h5 class="card-title text-center">NAVEGACIÓN</h5>
+        <ul class="li">Preguntas frecuentes</ul>
+        <ul class="li">Distribuidores</ul>
+        <ul class="li">Prensa</ul>
+        <ul class="li">Recetas exclusivas</ul>
+      </div>
+
+      <div class="col-6 col-lg-1" id="redes-footer">
+        
+        <div class="redes my-3">
+          <h5 class="card-title text-center">REDES</h5>
+          <div>
+            <img class="logo" src="img/SVG/instagram.svg" alt="logo de Instagram">
+          </div>
+          <div>
+            <img class="logo" src="img/SVG/facebook.svg" alt="logo de Facebook">
+          </div>
+          <div>
+            <img class="logo" src="img/SVG/tiktok.svg" alt="logo de Tik-Tok">
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3 my-3" id="ubicacion-footer">
+        <h5 class="card-title text-center">UBICACIÓN</h5>
+        <p class="fw-bold">Montes de Oca 2356, CABA</p>
+        <div id="mapa my-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.039348848327!2d-58.372699285121364!3d-34.65370918044651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1662941162688!5m2!1ses-419!2sar"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" id="copy">
+      <p>Sole Grilletta</p>
+    </div>
+
 
   </footer>
 
