@@ -246,6 +246,15 @@ iframe {
         flex-direction: row-reverse;
     }
 
+    .producto div {
+        width: 50vw;
+    }
+
+    .producto img {
+        object-fit: cover;
+        width: 50vw;
+    }
+
     #logos {
         display: flex;
         flex-flow: row;
